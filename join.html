@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Club - Labzak Minimarket</title>
+</head>
+<link rel="stylesheet" href="styles/style.css">
+<body>
+    <header>
+        <h1>Labzak Minimarket</h1>
+    </header>
+    <nav>
+        <a href="index.html" >Home</a>
+        <a href="products.html">Products</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="prices.html">Prices</a>
+        <a href="join.html">Join club</a>
+        <a href="order.html">Order</a>
+    </nav>
+    <main>
+        <h2>Join the Labzak club</h2>
+        <p>Get exclusive discounts, weekly fresh bread notifications, and special student offers right to your email!</p>
+        
+        <form action="join.html" method="get">
+            <fieldset>
+                <legend>Club Membership Form</legend>
+                <p> 
+                    <label for="member-name">Your Name:</label><br>
+                    <input type="text" id="member-name" name="name" required placeholder="Name">
+                </p>
+                <p>
+                    <label for="member-surname">Your Surname:</label><br>
+                    <input type="text" id="member-surname" name="surname" required placeholder="Surname">
+                </p>
+                <p>
+                    <label for="member-age">Your Age:</label><br>
+                    <input type="number" id="member-age" name="age" required placeholder="Age">
+                </p>
+                <p>
+                    <label for="member-email">Email Address:</label><br>
+                    <input type="email" id="member-email" name="email" required placeholder="email@gmail.com">
+                </p>
+                <p>
+                    <label><input type="checkbox" name="notifications" value="yes" checked> Receive weekly offers</label>
+                </p>
+            </fieldset>
+            <p>
+                <button type="submit">Sign Up</button>
+            </p>
+        </form>
+    </main>
+    <footer>
+        <p>Labzak Minimarket · Labzak street, Tashkent · 2026</p>
+    </footer>
+</body>
+</html>
